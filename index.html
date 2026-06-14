@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lost Park Jiu Jitsu — Salem, Oregon</title>
+<!--
+  ============================================================
+  LOST PARK JIU JITSU — WEBSITE TEMPLATE v2
+  ============================================================
+  - Logo file (lost-park-logo.png) must sit next to this HTML file.
+  - Toggle between Light mode (cream/navy) and Dark mode (navy/cream)
+    using the button in the top-right of the page.
+  - Search for [EDIT: ...] markers to find placeholder text.
+  - Search for [IMAGE: ...] markers for where photos go.
+  ============================================================
+-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,800;1,9..144,400;1,9..144,600&family=JetBrains+Mono:wght@400;500&family=Inter+Tight:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <a href="#" class="nav-brand">
+    <img src="images/logo.png" alt="Lost Park Jiu Jitsu" class="nav-logo">
+    <span class="nav-tagline">Jiu Jitsu</span>
+  </a>
+  <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <div class="nav-links">
+    <a href="#welcome">Welcome</a>
+    <a href="#schedule">Schedule</a>
+    <a href="#programs">Programs</a>
+    <a href="#coaches">Coaches</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <a href="#founding" class="nav-cta">Free Intro</a>
+</nav>
+
+<header class="hero">
+  <div class="hero-meta">
+    <span class="mono">Salem, Oregon · Est. 2026</span>
+    <span class="mono">Brazilian Jiu Jitsu · Kickboxing · S&amp;C</span>
+  </div>
+
+  <h1>
+    Stay young.<br>
+    <span class="italic">Get</span> <span class="accent">lost.</span><br>
+    Struggle, learn, grow.
+  </h1>
+
+  <div class="hero-bottom">
+    <p class="hero-quote">
+      A jiu jitsu home opening its doors in downtown Salem.
+      Youth and adult programs, kickboxing, and strength &amp; conditioning —
+      grounded in a coaching lineage that traces directly to the
+      <em>original American pioneers of Brazilian Jiu Jitsu</em>.
+    </p>
+    <div class="hero-actions">
+      <a href="#founding" class="btn-primary">Become a Founding Member</a>
+      <a href="#welcome" class="btn-ghost">Walk through the doors →</a>
+    </div>
+  </div>
+</header>
+
+<section id="welcome" class="welcome">
+  <div class="container">
+    <div class="section-label">01 — Welcome</div>
+    <div class="welcome-grid">
+      <h2>For the<br><span class="italic">first-timer.</span><br>For the lifer.</h2>
+      <div class="welcome-text">
+        <p>Everyone who walks in has a different story. Some are just beginning, some are coming back after years away, and some have been on the mats since before they can remember. We built Lost Park for all of them.</p>
+        <p>For new students, that first year is everything — the one that decides whether jiu jitsu becomes part of your life or just a thing you tried once. We pour extra energy into beginners so the answer is the first one. Classes are structured for fundamentals, intermediate, and advanced students, so wherever you are, you're in the right place.</p>
+        <p>For longtime grapplers, this is a place to loosen up, ask questions, get beat up, solve problems on the mat and in life. To get lost. To find something again.</p>
+        <p><strong>First class is free.</strong> Come see what we're building.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="schedule" class="schedule">
+  <div class="container">
+    <div class="section-label">02 — Schedule</div>
+    <h2>Class <span class="italic">schedule.</span></h2>
+    <p class="schedule-intro">Mornings, afternoons, and evenings — six days a week. Youth programming runs late afternoons. Adult BJJ picks up at 6:00 PM and runs through 8:30 PM. Kickboxing and S&amp;C are woven through the week. Saturday is open gym.</p>
+
+    <div class="schedule-legend">
+      <span class="legend-swatch legend-youth"><span></span>Youth Jiu Jitsu</span>
+      <span class="legend-swatch legend-adult"><span></span>Adult BJJ</span>
+      <span class="legend-swatch legend-kickboxing"><span></span>Kickboxing</span>
+      <span class="legend-swatch legend-sc"><span></span>Strength &amp; Conditioning</span>
+    </div>
+
+    <div class="schedule-grid">
+      <div class="time-header"></div>
+      <div class="day-header">Mon</div>
+      <div class="day-header">Tue</div>
+      <div class="day-header">Wed</div>
+      <div class="day-header">Thu</div>
+      <div class="day-header">Fri</div>
+      <div class="day-header">Sat</div>
+      <div class="day-header">Sun</div>
+
+      <div class="time-slot">6:00–7:00 AM</div>
+      <div class="cell sc" data-time=""><span class="cell-title">Conditioning</span><span class="cell-detail">6–7 AM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell sc" data-time=""><span class="cell-title">Conditioning</span><span class="cell-detail">6–7 AM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell sc" data-time=""><span class="cell-title">Conditioning</span><span class="cell-detail">6–7 AM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell empty"></div>
+      <div class="time-slot">7:00–8:00 AM</div>
+      <div class="cell adult" data-time=""><span class="cell-title">Morning BJJ</span><span class="cell-detail">7–8 AM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell adult" data-time=""><span class="cell-title">Morning BJJ</span><span class="cell-detail">7–8 AM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell adult" data-time=""><span class="cell-title">Morning BJJ</span><span class="cell-detail">7–8 AM</span></div>
+      <div class="cell adult" data-time=""><span class="cell-title">BJJ + Open Gym</span><span class="cell-detail">Morning</span></div>
+      <div class="cell empty"></div>
+      <div class="time-slot">4:00–4:45 PM</div>
+      <div class="cell youth" data-time=""><span class="cell-title">Big Minis (6–8)</span><span class="cell-detail">4:00–4:45 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Minis (4–5)</span><span class="cell-detail">4:00–4:30 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Big Minis (6–8)</span><span class="cell-detail">4:00–4:45 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Minis (4–5)</span><span class="cell-detail">4:00–4:30 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Big Minis (6–8)</span><span class="cell-detail">4:00–4:45 PM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell empty"></div>
+      <div class="time-slot">5:00–6:00 PM</div>
+      <div class="cell youth" data-time=""><span class="cell-title">Juniors & Teens</span><span class="cell-detail">5:00–6:00 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Juniors & Teens</span><span class="cell-detail">5:00–6:00 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Juniors & Teens</span><span class="cell-detail">5:00–6:00 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Juniors & Teens</span><span class="cell-detail">5:00–6:00 PM</span></div>
+      <div class="cell youth" data-time=""><span class="cell-title">Juniors & Teens</span><span class="cell-detail">5:00–6:00 PM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell empty"></div>
+      <div class="time-slot">6:00–8:30 PM</div>
+      <div class="cell adult" data-time=""><span class="cell-title">Adult BJJ</span><span class="cell-detail">Fundamentals · Concepts</span></div>
+      <div class="cell adult" data-time=""><span class="cell-title">Adult BJJ</span><span class="cell-detail">Fundamentals · No-Gi</span></div>
+      <div class="cell adult" data-time=""><span class="cell-title">Adult BJJ</span><span class="cell-detail">Fundamentals · Takedowns</span></div>
+      <div class="cell adult" data-time=""><span class="cell-title">Adult BJJ</span><span class="cell-detail">Fundamentals · Concepts</span></div>
+      <div class="cell adult" data-time=""><span class="cell-title">Adult BJJ</span><span class="cell-detail">Fundamentals · No-Gi</span></div>
+      <div class="cell empty"></div>
+      <div class="cell empty"></div>
+      <div class="time-slot">6:30–9:00 PM</div>
+      <div class="cell empty"></div>
+      <div class="cell kickboxing" data-time=""><span class="cell-title">Kickboxing</span><span class="cell-detail">6:30–9 PM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell kickboxing" data-time=""><span class="cell-title">Kickboxing</span><span class="cell-detail">6:30–9 PM</span></div>
+      <div class="cell empty"></div>
+      <div class="cell empty"></div>
+      <div class="cell empty"></div>
+    </div>
+
+    <div class="schedule-mobile">
+      <div class="schedule-day">
+        <div class="schedule-day-name">Monday</div>
+        <div class="cell sc"><span class="cell-time">6:00–7:00 AM</span><span class="cell-title">Conditioning</span></div>
+        <div class="cell adult"><span class="cell-time">7:00–8:00 AM</span><span class="cell-title">Morning BJJ</span></div>
+        <div class="cell youth"><span class="cell-time">4:00–4:45 PM</span><span class="cell-title">Big Minis (6–8)</span></div>
+        <div class="cell youth"><span class="cell-time">5:00–6:00 PM</span><span class="cell-title">Juniors & Teens</span></div>
+        <div class="cell adult"><span class="cell-time">6:00–8:30 PM</span><span class="cell-title">Adult BJJ — Fundamentals · Concepts</span></div>
+      </div>
+      <div class="schedule-day">
+        <div class="schedule-day-name">Tuesday</div>
+        <div class="cell youth"><span class="cell-time">4:00–4:30 PM</span><span class="cell-title">Minis (4–5)</span></div>
+        <div class="cell youth"><span class="cell-time">5:00–6:00 PM</span><span class="cell-title">Juniors & Teens</span></div>
+        <div class="cell adult"><span class="cell-time">6:00–8:30 PM</span><span class="cell-title">Adult BJJ — Fundamentals · No-Gi</span></div>
+        <div class="cell kickboxing"><span class="cell-time">6:30–9:00 PM</span><span class="cell-title">Kickboxing</span></div>
+      </div>
+      <div class="schedule-day">
+        <div class="schedule-day-name">Wednesday</div>
+        <div class="cell sc"><span class="cell-time">6:00–7:00 AM</span><span class="cell-title">Conditioning</span></div>
+        <div class="cell adult"><span class="cell-time">7:00–8:00 AM</span><span class="cell-title">Morning BJJ</span></div>
+        <div class="cell youth"><span class="cell-time">4:00–4:45 PM</span><span class="cell-title">Big Minis (6–8)</span></div>
+        <div class="cell youth"><span class="cell-time">5:00–6:00 PM</span><span class="cell-title">Juniors & Teens</span></div>
+        <div class="cell adult"><span class="cell-time">6:00–8:30 PM</span><span class="cell-title">Adult BJJ — Fundamentals · Takedowns</span></div>
+      </div>
+      <div class="schedule-day">
+        <div class="schedule-day-name">Thursday</div>
+        <div class="cell youth"><span class="cell-time">4:00–4:30 PM</span><span class="cell-title">Minis (4–5)</span></div>
+        <div class="cell youth"><span class="cell-time">5:00–6:00 PM</span><span class="cell-title">Juniors & Teens</span></div>
+        <div class="cell adult"><span class="cell-time">6:00–8:30 PM</span><span class="cell-title">Adult BJJ — Fundamentals · Concepts</span></div>
+        <div class="cell kickboxing"><span class="cell-time">6:30–9:00 PM</span><span class="cell-title">Kickboxing</span></div>
+      </div>
+      <div class="schedule-day">
+        <div class="schedule-day-name">Friday</div>
+        <div class="cell sc"><span class="cell-time">6:00–7:00 AM</span><span class="cell-title">Conditioning</span></div>
+        <div class="cell adult"><span class="cell-time">7:00–8:00 AM</span><span class="cell-title">Morning BJJ</span></div>
+        <div class="cell youth"><span class="cell-time">4:00–4:45 PM</span><span class="cell-title">Big Minis (6–8)</span></div>
+        <div class="cell youth"><span class="cell-time">5:00–6:00 PM</span><span class="cell-title">Juniors & Teens</span></div>
+        <div class="cell adult"><span class="cell-time">6:00–8:30 PM</span><span class="cell-title">Adult BJJ — Fundamentals · No-Gi</span></div>
+      </div>
+      <div class="schedule-day">
+        <div class="schedule-day-name">Saturday</div>
+        <div class="cell adult"><span class="cell-time">Morning</span><span class="cell-title">BJJ + Open Gym</span></div>
+      </div>
+      <div class="schedule-day">
+        <div class="schedule-day-name">Sunday</div>
+        <div class="schedule-day-closed">Closed</div>
+      </div>
+    </div>
+
+
+    <p class="schedule-note">Sundays closed. Class times subject to refinement before opening — confirmed schedule will be posted ahead of doors opening.</p>
+  </div>
+</section>
+
+<section id="programs" class="programs">
+  <div class="container">
+    <div class="section-label">03 — Programs</div>
+    <h2>What we<br><span class="italic">train.</span></h2>
+
+    <div class="program-grid">
+      <div class="program-card">
+        <div class="program-number">/ 01</div>
+        <h3>Youth <span class="italic">Jiu Jitsu</span></h3>
+        <p>[EDIT] Age-tiered programs for kids 4–5, 6–8, and 9–12 &amp; teens. Confidence, awareness, focus, and the foundation to take on whatever life puts in front of them.</p>
+        <p>[EDIT] Minis (4–5): Tue/Thu, 4:00–4:30 PM. Big Minis (6–8): Mon/Wed/Fri, 4:00–4:45 PM. Juniors (9–12) &amp; Teens (13–17): Mon–Fri, 5:00–6:00 PM.</p>
+      </div>
+      <div class="program-card">
+        <div class="program-number">/ 02</div>
+        <h3>Adult <span class="italic">BJJ</span></h3>
+        <p>[EDIT] Four tracks: Fundamentals, No-Gi, Takedowns &amp; Wrestling, and Concepts. Five nights a week, plus mornings and Saturdays.</p>
+      </div>
+      <div class="program-card">
+        <div class="program-number">/ 03</div>
+        <h3><span class="italic">Kickboxing</span></h3>
+        <p>[EDIT] Striking and conditioning on a dedicated floor, running concurrently with BJJ programming. Drop in for a single class or build it into your weekly training.</p>
+      </div>
+      <div class="program-card">
+        <div class="program-number">/ 04</div>
+        <h3>Strength &amp; <span class="italic">Conditioning</span></h3>
+        <p>[EDIT] Morning conditioning classes Mon/Wed/Fri at 6:00 AM, followed immediately by BJJ. Two hours of work before your day starts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="coaches" class="coaches">
+  <div class="container">
+    <div class="section-label">04 — Coaches</div>
+    <h2>The people <span class="italic">behind</span> the gym.</h2>
+    <div class="coach-grid">
+      <div class="coach-card">
+        <div class="coach-image has-photo"><img src="images/coach-eric.jpg" alt="Eric Loar"></div>
+        <h3>Eric Loar</h3>
+        <div class="coach-role">Co-Founder · Head Coach, Jiu Jitsu</div>
+        <p class="coach-bio">[EDIT] Training since 2001. Black belt, 2014. Coaching kids' and adult jiu jitsu, plus strength &amp; conditioning.</p>
+      </div>
+      <div class="coach-card">
+        <div class="coach-image"></div>
+        <h3>Brandon Pelky</h3>
+        <div class="coach-role">Co-Founder · Head Coach, Kickboxing &amp; BJJ</div>
+        <p class="coach-bio">[EDIT] Training since 2000. [EDIT: belt rank]. Coaching kickboxing, BJJ, and strength &amp; conditioning.</p>
+      </div>
+      <div class="coach-card coming-soon">
+        <div class="coach-image placeholder-tile">
+          <span class="placeholder-mark">+</span>
+        </div>
+        <h3><span class="italic">More coaches</span><br>to come.</h3>
+        <div class="coach-role">Growing the team</div>
+        <p class="coach-bio">As our community grows, so will this page. Lost Park is built to last — and that means bringing on the right people, deliberately, as the membership and the program demand it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="lineage">
+  <div class="container">
+    <div class="section-label">05 — About Us</div>
+    <div class="lineage-intro">
+      <h2>Who we <span class="italic">are.</span></h2>
+      <p>[EDIT] Our history — how Lost Park came together, who's behind it, and why we're opening in downtown Salem.</p>
+      <p>In jiu jitsu, who you learned from matters. Lost Park's coaches carry two distinct lineages — both with roots that reach back to the people who first brought Brazilian Jiu Jitsu to America.</p>
+    </div>
+
+    <!-- Eric's lineage chain -->
+    <div class="lineage-branch-label">Eric Loar</div>
+    <div class="lineage-chain">
+      <div class="lineage-step">
+        <span class="mono">Origin</span>
+        <h4>Chris Haueter</h4>
+        <p>One of the original Dirty Dozen — the first 12 BJJ black belts in the United States.</p>
+      </div>
+      <div class="lineage-step">
+        <span class="mono">Lineage</span>
+        <h4>Impact Jiu Jitsu</h4>
+        <p>Beaverton, Oregon. One of the largest and most respected BJJ affiliations in the state, with roots tracing directly back to Chris Haueter.</p>
+      </div>
+      <div class="lineage-step">
+        <span class="mono">Coach</span>
+        <h4>Eric Loar</h4>
+        <p>Black belt from Impact Jiu Jitsu, 2014. Training since 2001. 15+ years coaching youth and adults.</p>
+      </div>
+    </div>
+
+    <!-- Brandon's lineage chain -->
+    <div class="lineage-branch-label">Brandon Pelky</div>
+    <div class="lineage-chain">
+      <div class="lineage-step">
+        <span class="mono">Origin</span>
+        <h4>Pedro Sauer</h4>
+        <p>Gracie Humaita black belt with a nationally and internationally recognized affiliation network.</p>
+      </div>
+      <div class="lineage-step">
+        <span class="mono">Lineage</span>
+        <h4>Mike Downing</h4>
+        <p>Pedro Sauer black belt. Brandon's instructor and continued connection to the Pedro Sauer organization.</p>
+      </div>
+      <div class="lineage-step">
+        <span class="mono">Coach</span>
+        <h4>Brandon Pelky</h4>
+        <p>Pedro Sauer affiliate. Training since 2000. Technical depth across BJJ, kickboxing, and S&amp;C.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="founding" class="founding">
+  <div class="container">
+    <div class="mono">Pre-Launch · Limited Spots</div>
+    <h2>Become a <span class="italic">Founding Member.</span></h2>
+    <p>[EDIT] We're signing 25–30 Founding Members before the doors open. $100/month, rate locked for 3–5 years. A meaningful discount on the standard rate — and a chance to be part of building this from day one.</p>
+    <a href="mailto:ericloar@protonmail.com?subject=Founding%20Member%20Interest" class="btn-primary">Reach out about Founding Membership</a>
+  </div>
+</section>
+
+<footer id="contact" class="contact">
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <h2>Come <span class="italic">train.</span></h2>
+        <div class="contact-info">
+          <p><strong>Address:</strong> [EDIT — JC Penney Building, Salem, OR]</p>
+          <p><strong>Phone:</strong> <a href="tel:5035083595">503-508-3595</a></p>
+          <p><strong>Email:</strong> <a href="mailto:ericloar@protonmail.com">ericloar@protonmail.com</a></p>
+          <p style="margin-top:1.5rem;color:var(--paper);">First class is free. Just show up — or send a note and we'll set a time.</p>
+        </div>
+      </div>
+      <div class="contact-col">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="#welcome">Welcome</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#coaches">Coaches</a></li>
+          <li><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+      <div class="contact-col">
+        <h4>Follow</h4>
+        <ul>
+          <li><a href="#">Instagram →</a></li>
+          <li><a href="#">Facebook →</a></li>
+          <li><a href="#">YouTube →</a></li>
+          <li><a href="mailto:ericloar@protonmail.com">Newsletter →</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bar">
+      <img src="images/logo.png" alt="Lost Park Jiu Jitsu" class="footer-logo">
+      <a href="#welcome" onclick="window.scrollTo({top: 0, behavior: 'smooth'}); return false;" class="mono">Return to top ↑</a>
+      <span class="mono">Salem, Oregon · © 2026</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="12" y1="19" x2="12" y2="5"></line>
+    <polyline points="5 12 12 5 19 12"></polyline>
+  </svg>
+</button>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
